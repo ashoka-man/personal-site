@@ -1,0 +1,122 @@
+/* src/styles.css */
+body {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffffff;
+  color: #000000;
+  position: sticky;
+  top: 1vh;
+}
+
+.nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+
+}
+
+.nav img {
+  max-width: 60px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  margin: 0 1rem;
+}
+
+.nav ul li a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.nav ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+
+}
+
+.about h1 {
+  font-weight: 200;
+  position: sticky;
+  top: 30vh;
+}
+
+.contact h2 {
+  font-weight: 200;
+}
+
+.contact ul {
+  list-style: none;
+  padding-left: 0pc;
+}
+
+.contact ul li a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.contact ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.projects h2 {
+  font-weight: 200;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
