@@ -8,6 +8,12 @@ body {
   line-height: 1.6;
 }
 
+::selection {
+  color: #ffffff;
+  background: #000000;
+}
+
+
 header {
   background: #ffffff;
   color: #000000;
@@ -52,12 +58,12 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 60vh;
-
+  min-height: 70vh;
 }
 
 .about h1 {
   font-weight: 200;
+  font-size: 40px;
   position: sticky;
   top: 30vh;
 }
@@ -88,7 +94,8 @@ header {
 .columns {
   display: flex;
   justify-content: space-evenly;
-
+  margin: auto;
+  max-width: 60vw;
 }
 
 main {
